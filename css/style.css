@@ -1,0 +1,55 @@
+/* ASPECTOS GENERALES */
+body{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    font-family: 'Acme', Arial;
+    margin: 0;
+}
+
+/* TÍTULO */
+h1{
+    color: #1e021e;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#title{
+    border-radius: 8px;
+    background: #ffe8df;
+    margin: 10px 400px;
+}
+
+/* DIV QUE CONTIENE LAS CARTAS */
+.memoryTable{
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 1200px;
+}
+
+.memoryTable div{
+    align-items: center;
+    background-image: url('../img/cardreverse.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+    cursor: pointer;
+    display: flex;
+    float: left;
+    font-size: 19px;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    height: 110px;
+    width: 50px;
+}
+/* DIV QUE CONTIENE LAS CARTAS */
